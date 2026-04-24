@@ -16,18 +16,19 @@
 
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: #f5f6f8;
+    background: #f7f6f3;
     color: #222;
     min-height: 100vh;
   }
 
   header {
-    background: #1a3560;
-    color: #fff;
-    padding: 20px 40px;
+    background: #fff;
+    color: #111;
+    padding: 18px 40px;
+    border-bottom: 1.5px solid #e0ddd8;
   }
-  header h1 { font-size: 1.35rem; font-weight: 700; letter-spacing: 0.02em; }
-  header p  { font-size: 0.82rem; opacity: 0.75; margin-top: 4px; }
+  header h1 { font-size: 1.35rem; font-weight: 700; letter-spacing: 0.01em; color: #111; }
+  header p  { font-size: 0.82rem; color: #777; margin-top: 4px; }
 
   main {
     max-width: 1100px;
@@ -73,7 +74,7 @@
     min-width: 200px;
     transition: border-color 0.15s;
   }
-  select:focus { outline: none; border-color: #3a6bc4; }
+  select:focus { outline: none; border-color: #c85a2a; }
 
   .hidden { display: none !important; }
 
@@ -86,7 +87,7 @@
     margin-bottom: 24px;
   }
   .card-header   { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 4px; }
-  .card-title    { font-size: 1.05rem; font-weight: 600; color: #1a3560; }
+  .card-title    { font-size: 1.05rem; font-weight: 600; color: #111; }
   .card-subtitle { font-size: 0.8rem; color: #777; margin-bottom: 20px; }
   .chart-wrap    { position: relative; height: 380px; }
   .btn-download {
@@ -104,7 +105,7 @@
     white-space: nowrap;
     transition: border-color 0.15s, color 0.15s;
   }
-  .btn-download:hover { border-color: #3a6bc4; color: #3a6bc4; }
+  .btn-download:hover { border-color: #c85a2a; color: #c85a2a; }
   .btn-download svg   { flex-shrink: 0; }
 
   /* ── Slider ── */
@@ -131,10 +132,10 @@
     margin-top: 12px;
   }
   #term-slider { margin: 0 8px; }
-  .noUi-connect { background: #3a6bc4; }
+  .noUi-connect { background: #c85a2a; }
   .noUi-handle {
     border-radius: 50%;
-    background: #3a6bc4;
+    background: #c85a2a;
     border: 2px solid #fff;
     box-shadow: 0 1px 4px rgba(0,0,0,0.25);
   }
@@ -168,7 +169,7 @@
     color: #333;
     border-bottom: 1px solid #f0f1f3;
   }
-  tbody td:first-child { text-align: left; font-weight: 500; color: #1a3560; }
+  tbody td:first-child { text-align: left; font-weight: 500; color: #111; }
   tbody tr:last-child td { border-bottom: none; }
 
   footer { text-align: center; font-size: 0.75rem; color: #999; padding: 24px; }

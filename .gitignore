@@ -1,0 +1,15 @@
+# Dataset — too large for git (74 MB), keep local only
+*.xlsx
+
+# Local dev server
+serve.py
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
